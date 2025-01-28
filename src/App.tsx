@@ -8,7 +8,7 @@ const App = () => {
     <BodyWrapper>
       <ContentWrapper>
         <MainContentWrapper>
-          <h1>Hello, World</h1>
+          <h1>Hello World!</h1>
         </MainContentWrapper>
       </ContentWrapper>
     </BodyWrapper>

@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "Neco-Medium";
+  src: url("Neco-Medium.eot");
+  src: local("Neco-Medium"), local("Neco-Medium"),
+    url("Neco-Medium.eot?#iefix") format("embedded-opentype"),
+    url("Neco-Medium.woff2") format("woff2"), url("Neco.woff") format("woff"),
+    url("Neco-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Neco-Bold";
+  src: url("Neco-Bold.eot");
+  src: local("Neco-Bold"), local("Neco-Bold"),
+    url("Neco-Bold.eot?#iefix") format("embedded-opentype"),
+    url("Neco-Bold.woff2") format("woff2"), url("Neco.woff") format("woff"),
+    url("Neco-Bold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Supreme-Regular";
+  src: url("Supreme-Regular.eot");
+  src: local("Supreme-Regular"), local("Supreme-Regular"),
+    url("Supreme-Regular.eot?#iefix") format("embedded-opentype"),
+    url("Supreme-Regular.woff2") format("woff2"),
+    url("Supreme.woff") format("woff"),
+    url("Supreme-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}

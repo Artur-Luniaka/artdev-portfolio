@@ -1,2 +1,4 @@
 @import url("./reset.css");
 @import "modern-normalize";
+@import url("../fonts/fonts.css");
+@import url("./variables.css");

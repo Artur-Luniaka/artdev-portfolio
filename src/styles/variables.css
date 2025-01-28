@@ -1,0 +1,11 @@
+:root {
+  --font-neco-medium: "Neco-Medium", sans-serif;
+  --font-neco-bold: "Neco-Bold", sans-serif;
+  --font-supreme-regular: "Supreme-Regular", sans-serif;
+  --title-color: #f6ebd9;
+  --text-color: #c9d6df;
+  --border: 1px solid rgba(234, 221, 200, 0.8);
+  --link-transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+    box-shadow 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  --link-shadow: 25px -20px 20px 8px rgba(246, 235, 217, 0.2) inset;
+}
