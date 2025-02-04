@@ -11,7 +11,7 @@ const BodyWrapper = ({ children }: BodyWrapperProps) => {
     <>
       <StarSky
         debugFps={true}
-        frameRate={60}
+        frameRate={30}
         style={{
           opacity: 1,
           height: "100vh",

@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 12px;
+  border: 2px solid silver;
+  border-radius: 8px;
+  @media (min-width: 768px) {
+    padding: 8px 12px;
+  }
+}
+
+.btn {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.icon {
+  color: rgba(246, 235, 217, 0.7);
+  width: 24px;
+  height: 24px;
+  transition: transform 0.3s ease;
+  @media (min-width: 768px) {
+    width: 26px;
+    height: 26px;
+  }
+}
+
+.icon_open {
+  transform: rotate(-180deg);
+}
