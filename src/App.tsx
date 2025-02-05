@@ -1,7 +1,6 @@
 import "./App.css";
 import BodyWrapper from "./components/BodyWrapper/BodyWrapper";
 import ContentWrapper from "./components/ContentWrapper/ContentWrapper";
-import Hero from "./components/Hero/Hero";
 import MainContentWrapper from "./components/MainContentWrapper/MainContentWrapper";
 import MobNavBar from "./components/NavBar/NavBar";
 
@@ -11,7 +10,7 @@ const App = () => {
       <ContentWrapper>
         <MobNavBar />
         <MainContentWrapper>
-          <Hero />
+          <h1>Hello, world!</h1>
         </MainContentWrapper>
       </ContentWrapper>
     </BodyWrapper>
