@@ -23,9 +23,9 @@
   display: flex;
   align-items: center;
   gap: 6px;
-  font-size: 18px;
+  font-size: 20px;
   @media (min-width: 768px) {
-    font-size: 20px;
+    font-size: 22px;
   }
 }
 
@@ -39,10 +39,10 @@
 }
 
 .a_social {
-  width: 20px;
-  height: 20px;
+  width: 24px;
+  height: 24px;
   @media (min-width: 768px) {
-    width: 24px;
-    height: 24px;
+    width: 26px;
+    height: 26px;
   }
 }

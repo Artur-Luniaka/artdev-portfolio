@@ -1,7 +1,7 @@
-import Github from "../GitHub";
-import Instagram from "../Instagram";
-import LinkedIn from "../Linkedin";
-import Telegram from "../Telegram";
+import Github from "../Socials/GitHub";
+import Instagram from "../Socials/Instagram";
+import LinkedIn from "../Socials/Linkedin";
+import Telegram from "../Socials/Telegram";
 import s from "./MobNavMenu.module.css";
 import { MdOutlineRocketLaunch } from "react-icons/md";
 

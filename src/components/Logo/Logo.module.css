@@ -7,9 +7,9 @@
 .logo {
   font-family: var(--font-neco-bold);
   color: var(--text-color);
-  font-size: 20px;
+  font-size: 24px;
   opacity: 0.8;
   @media (min-width: 768px) {
-    font-size: 24px;
+    font-size: 28px;
   }
 }

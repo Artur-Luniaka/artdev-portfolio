@@ -17,12 +17,12 @@
 
 .icon {
   color: rgba(246, 235, 217, 0.7);
-  width: 24px;
-  height: 24px;
+  width: 26px;
+  height: 26px;
   transition: transform 0.3s ease;
   @media (min-width: 768px) {
-    width: 26px;
-    height: 26px;
+    width: 28px;
+    height: 28px;
   }
 }
 
