@@ -1,6 +1,6 @@
 import Logo from "../Logo/Logo";
 import { FaHamburger } from "react-icons/fa";
-import s from "./MobNavBar.module.css";
+import s from "./NavBar.module.css";
 import MobNavMenu from "../MobNavMenu/MobNavMenu";
 import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
