@@ -14,7 +14,6 @@ const BodyWrapper = ({ children }: BodyWrapperProps) => {
         frameRate={30}
         style={{
           opacity: 1,
-          height: "100vh",
           width: "100wh",
         }}
         starColor={"rainbow"}
