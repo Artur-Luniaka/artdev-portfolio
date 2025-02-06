@@ -7,19 +7,15 @@ const Hero = () => {
       <picture>
         <source
           className={s.img}
-          srcSet="/../../public/hero.web.webp"
+          srcSet="/hero.web.webp"
           media="(min-width: 1280px)"
         />
         <source
           className={s.img}
-          srcSet="/../../public/hero.tab.webp"
+          srcSet="/hero.tab.webp"
           media="(min-width: 768px)"
         />
-        <img
-          className={s.img}
-          src="/../../public/hero.mob.webp"
-          alt="ArtDevExpert Image"
-        />
+        <img className={s.img} src="/hero.mob.webp" alt="ArtDevExpert Image" />
       </picture>
       <a className={s.btn} href="#">
         Contact <BsPhoneVibrate /> me
