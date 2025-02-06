@@ -7,17 +7,17 @@ const Hero = () => {
       <picture>
         <source
           className={s.img}
-          srcSet="/public/hero.web.webp"
+          srcSet="/../../public/hero.web.webp"
           media="(min-width: 1280px)"
         />
         <source
           className={s.img}
-          srcSet="/public/hero.tab.webp"
+          srcSet="/../../public/hero.tab.webp"
           media="(min-width: 768px)"
         />
         <img
           className={s.img}
-          src="/public/hero.mob.webp"
+          src="/../../public/hero.mob.webp"
           alt="ArtDevExpert Image"
         />
       </picture>
