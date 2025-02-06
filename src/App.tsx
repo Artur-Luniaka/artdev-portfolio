@@ -1,4 +1,5 @@
 import "./App.css";
+import AboutMe from "./components/AboutMe/AboutMe";
 import BodyWrapper from "./components/BodyWrapper/BodyWrapper";
 import ContentWrapper from "./components/ContentWrapper/ContentWrapper";
 import Hero from "./components/Hero/Hero";
@@ -12,6 +13,7 @@ const App = () => {
         <MobNavBar />
         <MainContentWrapper>
           <Hero />
+          <AboutMe />
         </MainContentWrapper>
       </ContentWrapper>
     </BodyWrapper>
