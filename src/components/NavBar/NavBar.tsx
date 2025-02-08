@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import WebNavMenu from "../WebNavMenu/WebNavMenu";
 
-const MobNavBar = () => {
+const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isShowBurger, setIsShowBurger] = useState(true);
 
@@ -48,7 +48,7 @@ const MobNavBar = () => {
             exit={{ opacity: 0, y: -10 }}
             transition={{ duration: 0.3 }}
           >
-            <MobNavMenu />
+            <MobNavMenu handleShowMenu={handleShowMenu} />
           </motion.div>
         )}
       </AnimatePresence>
@@ -56,4 +56,4 @@ const MobNavBar = () => {
   );
 };
 
-export default MobNavBar;
+export default NavBar;

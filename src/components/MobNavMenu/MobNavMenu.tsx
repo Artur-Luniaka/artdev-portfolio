@@ -5,18 +5,22 @@ import Telegram from "../Socials/Telegram";
 import s from "./MobNavMenu.module.css";
 import { MdOutlineRocketLaunch } from "react-icons/md";
 
-const MobNavMenu = () => {
+export type HideMobMenu = {
+  handleShowMenu: () => void;
+};
+
+const MobNavMenu = ({ handleShowMenu }: HideMobMenu) => {
   return (
     <nav className={s.nav}>
-      <ul className={s.ul}>
+      <ul onClick={handleShowMenu} className={s.ul}>
         <li className={s.li}>
-          <a className={s.a} href="#">
+          <a className={s.a} href="#about">
             About Me
             <MdOutlineRocketLaunch />
           </a>
         </li>
         <li className={s.li}>
-          <a className={s.a} href="#">
+          <a className={s.a} href="#skills">
             My Skills
             <MdOutlineRocketLaunch />
           </a>

@@ -2,7 +2,7 @@ import s from "./AboutMe.module.css";
 
 const AboutMe = () => {
   return (
-    <div className={s.wrapper}>
+    <div id="about" className={s.wrapper}>
       <h2 className={s.title}>About Me</h2>
       <span className={s.span}>
         <p className={s.text}>

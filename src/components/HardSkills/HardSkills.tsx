@@ -19,7 +19,7 @@ import Postman from "../HardSkillsIcons/Postman";
 
 const HardSkills = () => {
   return (
-    <div className={s.wrapper}>
+    <div id="skills" className={s.wrapper}>
       <h2 className={s.title}>Hard Skills</h2>
       <div className={s.list_wrapper}>
         <ul className={s.ul}>
