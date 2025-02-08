@@ -5,7 +5,7 @@ import Telegram from "../Socials/Telegram";
 import s from "./MobNavMenu.module.css";
 import { MdOutlineRocketLaunch } from "react-icons/md";
 
-export type HideMobMenu = {
+type HideMobMenu = {
   handleShowMenu: () => void;
 };
 

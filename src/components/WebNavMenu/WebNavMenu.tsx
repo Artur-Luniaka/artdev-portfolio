@@ -1,11 +1,10 @@
 import { MdOutlineRocketLaunch } from "react-icons/md";
 import s from "./WebNavMenu.module.css";
-import { HideMobMenu } from "../MobNavMenu/MobNavMenu";
 
-const WebNavMenu = ({ handleShowMenu }: HideMobMenu) => {
+const WebNavMenu = () => {
   return (
     <nav>
-      <ul onClick={handleShowMenu} className={s.ul}>
+      <ul className={s.ul}>
         <li>
           <a className={s.a} href="#about">
             About Me
