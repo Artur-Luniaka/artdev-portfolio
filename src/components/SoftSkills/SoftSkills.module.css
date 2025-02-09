@@ -18,6 +18,10 @@
     font-size: 26px;
     margin-bottom: 8px;
   }
+  @media (min-width: 1280px) {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
 }
 
 .list_wrapper {
@@ -25,6 +29,9 @@
   border-radius: 8px;
   padding: 10px;
   box-shadow: 4px 4px 15px rgba(255, 255, 255, 0.3);
+  @media (min-width: 1280px) {
+    padding: 12px;
+  }
 }
 
 .ul {
@@ -35,6 +42,9 @@
     flex-direction: row-reverse;
     gap: 8px;
   }
+  @media (min-width: 1280px) {
+    gap: 12px;
+  }
 }
 
 .tab_wrapper {
@@ -42,6 +52,9 @@
     display: flex;
     flex-wrap: wrap;
     gap: 6px;
+  }
+  @media (min-width: 1280px) {
+    max-width: 375px;
   }
 }
 
@@ -52,6 +65,9 @@
   font-weight: 600;
   @media (min-width: 768px) {
     font-size: 20px;
+  }
+  @media (min-width: 1280px) {
+    font-size: 22px;
   }
 }
 

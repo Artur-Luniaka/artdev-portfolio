@@ -41,22 +41,38 @@ const MobNavMenu = ({ handleShowMenu }: HideMobMenu) => {
       <div>
         <ul className={s.socials}>
           <li>
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://github.com/Artur-Luniaka"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Github className={s.a_social} />
             </a>
           </li>
           <li>
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://www.linkedin.com/in/artur-luniaka-developer/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <LinkedIn className={s.a_social} />
             </a>
           </li>
           <li>
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://t.me/Sma11Genius"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Telegram className={s.a_social} />
             </a>
           </li>
           <li>
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://www.instagram.com/artur.luniaka/#"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Instagram className={s.a_social} />
             </a>
           </li>

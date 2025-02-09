@@ -5,4 +5,7 @@
     flex-direction: row-reverse;
     margin-bottom: 10px;
   }
+  @media (min-width: 1280px) {
+    margin-bottom: 12px;
+  }
 }
